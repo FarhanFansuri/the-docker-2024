@@ -17,3 +17,5 @@ sudo docker container create --name cntainer_name --publish porthost:portcontain
 sudo docker container create --name cntainer_name --env KEY="value" image:tag
 
 sudo docker container stats
+
+sudo docker container create --name cntainer_name --publish porthost:portcontainer --memory 100m --cpus 1.5 image:tag
