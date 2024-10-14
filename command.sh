@@ -15,3 +15,5 @@ sudo docker container start nama_container
 sudo docker container stop nama_container
 
 sudo docker container rm nama_container
+
+sudo docker container logs (-f) container_id/name
