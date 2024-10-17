@@ -1,0 +1,1 @@
+sudo docker cuild -t farhan/app:tag folder_docker
